@@ -8,5 +8,5 @@ class Person:
     self.name = ""
     self.dob:datetime.date = None
     self.sex = Sex()
-    # human trait
+    # human traita
     

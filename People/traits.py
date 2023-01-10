@@ -1,5 +1,6 @@
 '''person traits'''
 
+
 class Sex:
     pass
         
@@ -8,3 +9,4 @@ class Male(Sex):
 
 class Female(Sex):
     pass
+
