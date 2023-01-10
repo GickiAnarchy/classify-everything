@@ -1,5 +1,10 @@
 '''person traits'''
 
 class Sex:
-    def __init__(self, sex):
-        pass
+    pass
+        
+class Male(Sex):
+   pass
+
+class Female(Sex):
+    pass
