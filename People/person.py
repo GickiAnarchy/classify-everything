@@ -8,9 +8,17 @@ class Person:
         self.name = ""
         self.dob:datetime.date = None       #Date of Birth
         self.dod:datetime.date = None       #Date of Death
+        is_alive = False
         self.sex = Sex()
         # human traits
 
+        
+        
+        def toggle_life(self):
+            if is_alive:
+                is_alive = False
+            elif not is_alive:
+                is_alive = True
 
 
 
