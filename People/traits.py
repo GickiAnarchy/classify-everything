@@ -2,11 +2,6 @@
 
 
 class Sex:
-    pass
-        
-class Male(Sex):
-   pass
-
-class Female(Sex):
-    pass
+    def __init__(self, sex = "Unknown"):
+        self.sex = sex
 
