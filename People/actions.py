@@ -3,6 +3,15 @@ from person import Person
 
 import random
 
-class Action:
-    pass
+class Actions:
+    def __init__(self,person:Person):
+        self.person = person
+
+
+    # Actions Start
+
+
+
+
+
 
