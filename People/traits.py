@@ -14,10 +14,10 @@ class Sex:
 
     
     @property
-    def can_have_children(self):
+    def can_give_birth(self):
         if self.sex == "Female":
             return True
-        else:
+        elif self.sex == "Male":
             return False
 
 
